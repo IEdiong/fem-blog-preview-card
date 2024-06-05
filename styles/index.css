@@ -2,10 +2,6 @@ html {
   font-size: 16px;
 }
 
-/* 1rem = 16px */
-/* 2rem = 32px */
-/* 1.5rem = 24px */
-
 body {
   background: hsl(47, 88%, 63%);
   padding-inline: 1.5rem;
