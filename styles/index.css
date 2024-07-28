@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,6 +22,10 @@ img {
 
 span {
   /* border: 1px solid #be2c2c; */
+}
+
+main {
+  max-width: 384px;
 }
 
 .card {
