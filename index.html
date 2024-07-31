@@ -14,6 +14,14 @@
 
     <title>Frontend Mentor | Blog preview card</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./styles/index.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,21 +36,34 @@
     </style>
   </head>
   <body>
-    <main>
-      <article class="card">
-        <img src="./assets/images/illustration-article.svg" alt="" />
+    <header class="sr-only">
+      <h1>Blog Preview Card</h1>
+    </header>
 
-        <div class="content">
-          <span>Learning</span>
-          <p>Published 21 Dec 2023</p>
-          <h1>HTML & CSS foundations</h1>
+    <main class="container">
+      <article class="card">
+        <div class="card__img">
+          <img src="./assets/images/illustration-article.svg" alt="" />
+        </div>
+
+        <div class="card__body">
+          <div class="badge">
+            <span>Learning</span>
+          </div>
+          <p class="date">Published 21 Dec 2023</p>
+          <h2>HTML & CSS foundations</h2>
           <p>
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
         </div>
-        <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" />
-        <p>Greg Hooper</p>
+
+        <div class="card__footer">
+          <div class="avatar">
+            <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" />
+          </div>
+          <p>Greg Hooper</p>
+        </div>
       </article>
     </main>
 
