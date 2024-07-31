@@ -42,15 +42,22 @@ body {
   font-family: var(--ff-figtree);
   font-size: var(--fz-sm);
   font-weight: 500;
-  padding-top: 9.75rem;
-  padding-bottom: 9.69rem;
   line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 img {
   width: 100%;
   display: block;
   /* border: 1px solid #be2c2c; */
+}
+
+a {
+  text-decoration: none;
 }
 
 /*! Util classes */
@@ -121,6 +128,8 @@ img {
   color: var(--gray-950);
   font-size: var(--fz-lg);
   font-weight: 800;
+
+  transition: all 0.25s ease-in-out;
 }
 
 .card__footer {
@@ -153,8 +162,23 @@ img {
 }
 
 .attribution a {
-  color: var(--blue);
+  color: var(--gray-950);
 }
 
-/*! Tablet - 764px */
+/*! Tablet - 744px */
+@media screen and (min-width: 46.5em) {
+  a:hover,
+  a:active {
+    color: var(--yellow);
+  }
+
+  a:focus-visible {
+    outline: 3px dotted var(--yellow);
+    outline-offset: 5px;
+  }
+
+  h2:hover {
+    color: inherit;
+  }
+}
 /*! Desktop - 1440px */
