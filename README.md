@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-CI5rRHATn-)
 - Live Site URL: [Here](https://iediong.github.io/fem-blog-preview-card/)
 
 ## My process

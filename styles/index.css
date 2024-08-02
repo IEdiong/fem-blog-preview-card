@@ -53,11 +53,11 @@ body {
 img {
   width: 100%;
   display: block;
-  /* border: 1px solid #be2c2c; */
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /*! Util classes */
@@ -179,7 +179,6 @@ a {
 }
 
 /*! Tablet - 744px */
-/* @media screen and (min-width: 46.5em) { */
 @media screen and (min-width: 27em) {
   body {
     font-size: var(--fz-md);
