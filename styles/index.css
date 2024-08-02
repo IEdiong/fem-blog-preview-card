@@ -23,7 +23,7 @@
   --spacing-50: 0.25rem;
   --spacing-100: 0.5rem;
   --spacing-150: 0.75rem;
-  --spacing-200: 1rem;
+  --spacing-200: 1.5rem;
 }
 
 /*! RESET */
@@ -80,7 +80,6 @@ a {
 }
 
 .badge {
-  height: 26px;
   background: var(--yellow);
   color: var(--gray-950);
   border-radius: var(--spacing-50);
@@ -94,6 +93,7 @@ a {
 .badge span {
   font-size: var(--fz-xs);
   font-weight: 800;
+  line-height: 150%;
 
   transition: all 0.25s ease-in-out;
 }
@@ -108,8 +108,15 @@ a {
 }
 
 .card__img {
+  height: 200px;
   border-radius: 0.625rem;
   overflow: hidden;
+  position: relative;
+}
+
+.card__img img {
+  object-fit: cover;
+  height: 100%;
 }
 
 .card__body {
@@ -123,6 +130,7 @@ a {
 
 .date {
   font-size: var(--fz-xs);
+  line-height: 150%;
   color: var(--gray-950);
 
   transition: all 0.25s ease-in-out;
@@ -131,6 +139,7 @@ a {
 .card__body h2 {
   color: var(--gray-950);
   font-size: var(--fz-lg);
+  line-height: 150%;
   font-weight: 800;
 
   transition: all 0.25s ease-in-out;
